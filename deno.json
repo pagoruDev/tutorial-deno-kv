@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start": "deno run --unstable --allow-read --allow-write ./main.ts",
+    "atomic": "deno run --unstable --allow-read --allow-write ./atomic.ts",
+    "list": "deno run --unstable --allow-read --allow-write ./list.ts",
+    "getMany": "deno run --unstable --allow-read --allow-write ./getMany.ts",
+    "enqueue": "deno run --unstable --allow-read --allow-write ./enqueue.ts"
+  }
+}
